@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_listview1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:text="(ListView)底部弹出样式1"
+            android:textSize="12sp" />
+
+        <include layout="@layout/layout_gray_vertical" />
+
+        <Button
+            android:id="@+id/btn_listview2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:text="(ListView)底部弹出样式2"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <include layout="@layout/layout_default_clear_edittext" />
+
+        <cn.com.toolbase.view.CleanableEditText
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/shape_doc_edit_bg"
+            android:drawableLeft="@drawable/ic_search_left"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/btn_text_clean"
+            android:hint="搜索"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/main_medium_A"
+            android:textColorHint="@color/main_medium_B"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_gray_line" />
+
+</LinearLayout>

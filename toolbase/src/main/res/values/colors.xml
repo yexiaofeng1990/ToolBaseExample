@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中性色 -->
+    <color name="main_medium_A">#ff4c4c4c</color> <!-- 标题正文 -->
+    <color name="main_medium_B">#ff969696</color> <!-- 灰色文字 -->
+    <color name="main_medium_C">#ffd0d0d0</color> <!-- 分割线1-->
+    <color name="main_medium_D">#fedcdcdc</color> <!-- 分割线2-->
+    <color name="main_medium_E">#fff4f4f4</color><!-- 背景 -->
+    <color name="focus_menu_color">#E0E0E0</color><!--lsit按下颜色-->
+</resources>
